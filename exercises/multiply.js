@@ -9,7 +9,16 @@
  */
 
 // Your code :
-
+function multiply(number1, number2){
+    let result = 0
+    for(let i=0; i < Math.abs(number1); i++){
+        result += number2
+    }
+    if(number1 < 0){
+        result = result - result - result
+    }
+    return result
+}
 //* Begin of tests
 const assert = require('assert')
 
