@@ -15,6 +15,12 @@ const sourceObject = {
   log: console.log,
 }
 
+
+
+function get(num){
+  return sourceObject[num]
+}
+
 // Your code :
 
 //* Begin of tests

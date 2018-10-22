@@ -8,7 +8,13 @@
  */
 
 // Your code :
-
+function getLast(array){
+    let j = 0
+    for(let i = 0; i < array.length; i++){
+        j = i
+    }
+    return array[j]
+}
 //* Begin of tests
 const assert = require('assert')
 

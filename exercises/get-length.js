@@ -8,7 +8,13 @@
  */
 
 // Your code :
-
+function getLength(array){
+    let result = 0
+    for(let i = 0; i < array.length; i++){
+        result += 1
+    }
+    return result
+}
 //* Begin of tests
 const assert = require('assert')
 
