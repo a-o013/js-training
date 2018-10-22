@@ -18,7 +18,7 @@ const sourceObject = {
 
 
 function get(num){
-  return sourceObject[num]
+  return sourceObject[num];
 }
 
 // Your code :
