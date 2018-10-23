@@ -11,6 +11,24 @@
 
 // Your code :
 
+let multiply = function(a, b){
+if(a > -1000 && b > -1000){
+    if(a == 0 || b == 0){
+      return 0;
+    }
+    if(a == 1){
+      return b;
+    }
+    if(a < 0 && b < 0){
+        return multiply(a+1, b) -b
+    }
+    if(a < 0){
+        return multiply(b-1, a) + a
+    }
+    return multiply(a-1, b) + b;
+    }
+}
+
 //* Begin of tests
 const assert = require('assert')
 
